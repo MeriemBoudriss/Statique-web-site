@@ -1,0 +1,157 @@
+﻿<!--Ceci est la page html des formulaires-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>le formulaire</title>
+		<link rel="shortcut icon" href="logoreve.JPEG" />
+		<link rel="stylesheet" type="text/css" href="style3h.css"  />
+	</head>
+	<body>
+		<div class="logosite">
+			<a  href="accueil.html" target="-blank"><img class="logo" src="logoreve.JPEG" alt="le logo du site"></a>
+			<nav> 
+				<ul class="menu">
+					<li><a href="">Menu</a></li>
+					<li class="separator"> &nbsp&nbsp&nbsp</li>
+					<li><a target="_blank" href="accueil.html">LA PAGE D'ACCUEIL </a></li>
+					<li class="separator">&nbsp&nbsp&nbsp</li>
+					<li><a href="">LES MODELES-> </a></li>
+				    <li class="separator">&nbsp&nbsp&nbsp</li>
+				    <li><a target="_blank" href="modeleMercedes.html"> MERCEDES BENZ </a></li>
+					<li class="separator">&nbsp&nbsp&nbsp</li>
+					<li><a target="_blank" href="modelebm.html"> B M W </a></li>
+					<li class="separator">&nbsp&nbsp&nbsp</li>
+					<li><a target="_blank" href="modelevolkswagen.html"> VOLKSWAGEN </a></li>
+					<li class="separator">&nbsp&nbsp&nbsp</li>
+					<li><a target="_blank" href="modeletoyota.html"> TOYOTA </a></li>
+					<li class="separator">&nbsp&nbsp&nbsp</li>
+				</ul>
+			</nav>
+		</div>
+   		<div class="princ">
+			<img class="princ1" src="logoreve.JPEG" alt="logo du site" />
+			<img class="princ2" src="voiture du site.png"  alt="logo du site" />
+		</div>
+		<div class="intro">
+			<h1>Pourquoi notre site ??</h1>
+			<p class="par0">  " Nous offrons à nos clients la possibilité de choisir
+					le système de fonctionnement avec lequel ils se sentent le plus à l'aise " 
+			</p>
+		</div>
+<!----------------------------------------------------------------------------------------------------------------->
+		<div class="etapes">
+			<h2>Les formulaires.</h2>
+			<p class="par1">acheter votre voiture en trois étapes!!</p>
+			<ul>
+				<li class="l1"><a href="#ancre1">Renseignez vos coordonnées personnelles.</a></li>
+				<li class="l1"><a href="#ancre2">choisissez votre modèle</a></li>
+				<li class="l1"><a href="#ancre3">Renseignez vos coordonnées bancaires.</a></li>
+			</ul>
+		</div>
+		<!-------------------------------------------------->
+		<div >
+			<form class="form1">
+				<fieldset>
+					<legend id="ancre1">Données personnelles :</legend>
+					<div class="t1">
+						<div class="in">
+							Civilité
+							<select name="civilité" >
+								<option value="Mme">Mme</option>
+								<option value="M.">M.</option>
+							</select><br/>
+						</div>
+						<div class="in">
+							Nom* :
+							<input type="text" value=" "><br/>
+						</div>
+						<div class="in">
+							Prénom* :
+							<input type="text" value=" "><br/>
+						</div><br/>
+						<div class="in">
+							Adresse électronique* :
+							<input type="email" value=" "><br/>
+						</div>
+						<div class="in">
+							Numéro de téléphone* :
+							<input type="number" value=" "><br/>
+						</div><br/>
+						<div class="in">
+							Adresse personnelle* :
+							<input type="text" value=" "><br/>
+						</div>
+						<div class="in">
+							Complément d'adresse :
+							<input type="text" value=" "><br/>
+							<input type="text" value=" "><br/>
+						</div><br/>
+						<div class="in">
+							Code postal* :
+							<input type="number" value=" "><br/>
+						</div>
+						<div class="in">
+							Ville* :
+							<input type="text" value=" "><br/>
+						</div>
+						<div class="in">
+							Pays* :
+							<input type="text" value=" "><br/>
+						</div>
+						<div class="in">
+							Adresse professionnelle :
+							<input type="text" value=" "><br/>
+						</div>
+						<h4>*Champs obligatoires</h4>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+		<!------------------------------------------------------------------------->
+		<div class="partie1">
+		 <form class="form2">
+		  <fieldset>
+			<legend id="ancre2">Choisissez votre modèle</legend><br/>
+			  <select name="modele" >
+				<optgroup label="MERCEDES BENZ">
+					<option value="m1">MERCEDES BENZ AMG GT ROADSTER</option>
+					<option value="m2">MERCEDES EQC 2018</option>
+					<option value="m2">MERCEDES SLC</option>
+				</optgroup>
+				<optgroup label="B M W">
+					<option value="M1">BMW SERIE 1 CINQ PORTES</option>
+					<option value="M2">BMW SERIE 2 COUPE</option>
+					<option value="M3">BMW SERIEE 3 GT</option>
+				</optgroup>
+				<optgroup label="VOLKSWAGEN">
+					<option value="M1">VOLKSWAGEN GOLF</option>
+					<option value="M2">VOLKSWAGEN PASSAT</option>
+					<option value="M3">VOLKWAGEN TIGUAN</option>
+				</optgroup>
+				<optgroup label="TOYOTA">
+					<option value="M1">TOYOTA CAMRY</option>
+					<option value="M2">TOYOTA VERSO</option>
+					<option value="M3">TOYOTA CH-R</option>
+				</optgroup>
+			</select>
+		  </fieldset>
+		 </form>
+		</div>
+		<!------------------------------------------------------------------------->
+		<div>
+			<form>
+				<fieldset>
+					<legend id="ancre3">Données bancaires :</legend><br/><br/><br/>
+					<div class="t1">
+						<h3>Choisissez le mode du payement.</h3>
+						<input type="radio" name="cb" value="carte bancaire" checked="checked">Carte bancaire<br>
+						<input type="radio" name="cheque" value="carte bancaire" >Chèque<br>
+						<input type="radio" name="mensu" value="plusieurs mensualitees" >
+							plusieurs mensualités! notre site vous offre la possibilité de payer en plusieurs mensualités</span><br>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+  </body>
+</html>
